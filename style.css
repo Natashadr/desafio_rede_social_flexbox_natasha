@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(230, 230, 230);
+    font-family: 'Raleway';
+}
+
+.caixaPrincipal{
+    display: flex;
+    flex-wrap: wrap;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    justify-content: space-evenly;
+    margin-right: 130px;
+    margin-left: 130px;
+}
+
+
+
+.caixas{
+    padding: 15px 0px 5px 0px;
+    width: 46%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: white;
+    border:  #ccc;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.perfil{
+    flex-direction: column;
+    display: flex;
+    width: 30%;
+    align-items: center;
+}
+
+
+.texto{
+    flex-direction: column;
+    display: flex;
+    width: 60%;
+}
+
+
+.texto h2{
+    margin: 12px 0px;
+    font-size: 30px;
+}
+
+
+.texto p{
+    margin: 0px 0px 6px 0px;
+    font-size: 20px;
+}
+
+
+.botao {
+    padding: 10px;
+    width: 100px;
+    margin: 12px 0px;
+    background-color: grey;
+    border-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+.usuario{
+    width: 180px;
+    padding: 2px;
+    margin:auto;
+}
+
+
+.redesSociais{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.rede{
+    width: 35px;
+    padding: 6px 6px 25px 6px;
+}
